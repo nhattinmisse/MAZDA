@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIEN HE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Lienhe.css">
+</head>
+<body>
+
+<!--Header-->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="TrangC.html"><img src="imager/logo-mazda.png" alt="Mazda"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="uadiem.html">ƯU ĐÃI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Bgia.html">GIÁ XE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="TraGia.html">TRẢ GÓP</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">TÌM ĐẠI LÝ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="laithu.html">LÁI THỬ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Lienhe.html">LIÊN HỆ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">USED CARS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-image" style="background-image: url('imager/TraGop.jpg');">
+                <div class="hero-content">
+                    <h1 class="text-white text-center">DỰ TOÁN TRẢ GÓP</h1>
+                    <p class="text-white text-center small">Bảng tính chỉ mang tính chất tham khảo. Quý khách vui lòng liên hệ Showroom/Đại Lý gần nhất để có Báo Giá chính xác nhất.</p>
+                </div>
+            </div>
+        </section>
+      </main>
+
+
+
+    <div class="container">
+        <div class="form-container">
+            <h3 class="form-title">XIN VUI LÒNG ĐIỀN THÔNG TIN BÊN DƯỚI. ĐẠI LÝ MAZDA GẦN BẠN NHẤT SẼ LIÊN HỆ VỚI BẠN SỚM</h3>
+            <form id="carLoanForm">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Họ và Tên *</label>
+                        <input type="text" class="form-control" id="name" placeholder="Nhập họ và tên" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="phone">Số Điện Thoại *</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Nhập số điện thoại" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="email">Email *</label>
+                        <input type="email" class="form-control" id="email" placeholder="Nhập email" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="car">Dòng Xe *</label>
+                        <select id="car" class="form-control" required>
+                            <option value="" disabled selected>Vui lòng chọn dữ liệu</option>
+                            <option value="500000000">Mazda 3</option>
+                            <option value="600000000">Mazda 6</option>
+                            <option value="700000000">Mazda CX-5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="version">Phiên Bản *</label>
+                        <select id="version" class="form-control" required>
+                            <option value="" disabled selected>Vui lòng chọn dữ liệu</option>
+                            <option value="10000000">Standard</option>
+                            <option value="15000000">Premium</option>
+                            <option value="20000000">Luxury</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="region">Khu Vực Lái Thử *</label>
+                        <select id="region" class="form-control" required>
+                            <option value="" disabled selected>Vui lòng chọn dữ liệu</option>
+                            <option value="HN">Hà Nội</option>
+                            <option value="HCM">Hồ Chí Minh</option>
+                            <option value="DN">Đà Nẵng</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="showroom">Showroom *</label>
+                        <select id="showroom" class="form-control" required>
+                            <option value="" disabled selected>Vui lòng chọn dữ liệu</option>
+                            <option value="1">Showroom 1</option>
+                            <option value="2">Showroom 2</option>
+                            <option value="3">Showroom 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="content">Nội Dung</label>
+                        <textarea class="form-control" id="content" rows="3" placeholder="Nhập nội dung"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Gửi</button>
+            </form>
+            <div class="result-section">
+                <div>GIÁ XE: <span id="carPrice">0</span> VND</div>
+                <div>TRẢ TRƯỚC (20%): <span id="downPayment">0</span> VND</div>
+                <div>TỔNG TIỀN VAY: <span id="loanAmount">0</span> VND</div>
+                <div>LÃI SUẤT (%/năm): <span id="interestRate">0</span>%</div>
+                <div>TỔNG TIỀN LÃI: <span id="totalInterest">0</span> VND</div>
+                <div>TỔNG TIỀN VAY & LÃI CÒN LẠI: <span id="totalLoanInterest">0</span> VND</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-sidebar">
+        <a href="#">&#128176;</a>
+        <a href="#">&#127873;</a>
+        <a href="#">&#128663;</a>
+        <a href="#">&#128656;</a>
+        <a href="#">&#128172;</a>
+        <a href="#">&#9878;</a>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-white p-8">
+        <div class="grid grid-cols-4 gap-8">
+        <div>
+        <h3 class="font-bold mb-4">
+        CÔNG TY TNHH PHÂN PHỐI THACO AUTO
+        </h3>
+        <p>
+        Giấy CNĐKDN: 400077880 Ngày cấp 27/10/2010
+        </p>
+        <p>
+        Cơ quan cấp: Phòng đăng ký kinh doanh Sở kế hoạch và đầu tư tỉnh Quảng Nam
+        </p>
+        <p>
+        Địa chỉ : Thôn 4, Xã Tam Hiệp, Huyện Núi Thành, Tỉnh Quảng Nam, Việt Nam
+        </p>
+        <img src="imager/logo-fter.png" alt="Logo" class="footer-logo">
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        SẢN PHẨM
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Mazda2
+        </li>
+        <li>
+            Mazda2 Sport
+        </li>
+        <li>
+            Mazda3
+        </li>
+        <li>
+            Mazda3 Sport
+        </li>
+        <li>
+            Mazda6
+        </li>
+        <li>
+            Mazda CX-3
+        </li>
+        <li>
+            Mazda CX-5
+        </li>
+        <li>
+            Mazda CX-8
+        </li>
+        <li>
+            Mazda CX-30
+        </li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        DỊCH VỤ
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Dịch vụ sau bán hàng
+        </li>
+        <li>
+            Phụ tùng - phụ kiện
+        </li>
+        <li>
+            Chăm sóc khách hàng
+        </li>
+        <li>
+            Đặt hẹn dịch vụ
+        </li>
+        </ul>
+        <h3 class="font-bold mt-8 mb-4">
+        CHÍNH SÁCH
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Chính sách Thanh toán
+        </li>
+        <li>
+            Chính sách Bảo mật
+        </li>
+        <li>
+            Chính sách Giao nhận - Vận chuyển
+        </li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        LIÊN HỆ VỚI CHÚNG TÔI
+        </h3>
+        <p>
+        <i class="fas fa-phone-alt">
+        </i>
+        Hotline: 1900545591
+        </p>
+        <p>
+        <i class="fas fa-envelope">
+        </i>
+        cskh@thaco.com.vn
+        </p>
+        <div class="flex space-x-4 mt-4">
+        <a href="#">
+            <i class="fab fa-facebook-f text-2xl">
+            </i>
+        </a>
+        <a href="#">
+            <i class="fab fa-youtube text-2xl">
+            </i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram text-2xl">
+            </i>
+        </a>
+        </div>
+        </div>
+        </div>
+        <div class="text-center mt-8">
+        <p>
+        © 2024 MAZDA VIỆT NAM
+        </p>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Lienhe.js"></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #72b8ee;
+    color: #fff;
+    font-family: 'Tên_Font', sans-serif; /* Thay 'Tên_Font' bằng tên font chữ thực tế */
+    font-family: 'Roboto';
+}
+/* Header Styles */
+header {
+    padding: 10px 0; /* Giảm khoảng cách trên và dưới */
+    background-color: #b3d1ed; /* Màu nền header */
+    border-bottom: 1px solid #000000; /* Đường viền dưới */
+    height: 87px; /* Chiều cao tối đa của header */
+}
+.bg-light {
+    background-color: #86bbed !important;
+}
+.bg-dark {
+    background-color: #89b9ea !important;
+}
+.col-md-6 {
+-ms-flex: 0 0 50%;
+flex: 0 0 50%;
+max-width: 50%;
+padding-left: 38px;
+}
+header .navbar-brand {
+    font-weight: bold;
+    height: 60px; /* Chiều cao logo */
+}
+
+header .navbar-nav {
+    margin-left: auto; /* Đẩy các mục menu sang phải */
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    padding: 10px 14px;
+    transition: color 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 1); /* Màu chữ khi hover */
+}
+
+header #quote-btn {
+    font-size: 14px; /* Kích thước chữ cho nút nhỏ hơn */
+    padding: 5px 15px; /* Giảm khoảng cách bên trong nút */
+    border-radius: 5px; /* Bo góc nút */
+    background-color: #fff; /* Màu nền nút */
+    border: 1px solid #000; /* Đường viền nút */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+header #quote-btn:hover {
+    background-color: #000; /* Màu nền khi hover */
+    color: #fff; /* Màu chữ khi hover */
+}
+
+/* Logo Styles */
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 55px; /* Kích thước logo nhỏ hơn */
+}
+/*MainDD*/
+
+
+/* Logo Styles */
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 55px; /* Kích thước logo nhỏ hơn */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 20px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+a:hover {
+    color: #121313;
+}
+/*connter*/
+.conteiner {
+max-width: 1200px;
+margin: 40px auto;
+padding: 20px;
+background-color: black;
+border: 1px solid #ddd;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.title {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.title h2 {
+font-size: 24px;
+font-weight: bold;
+color: white;
+}
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+}
+
+.product {
+background-color: #fff;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+transform: translateY(-10px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles to ensure hover effect is applied consistently */
+.product img {
+width: 100%;
+height: 150px;
+object-fit: cover;
+border-radius: 10px 10px 0 0;
+}
+
+.product h2 {
+font-size: 18px;
+font-weight: bold;
+color: #333;
+margin-top: 10px;
+}
+
+.product p {
+font-size: 14px;
+color: #666;
+margin-bottom: 20px;
+}
+/*congnghe*/
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.description {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.btn-outline-light {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-outline-light:hover {
+    color: #fff;
+    background-color: #d4d4d4;
+    border-color: #d4d4d4;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+}
+/*anToan*/
+.container-fluid {
+background-color: #111; /* Màu nền đen */
+padding: 50px 0;
+}
+
+.section-title {
+color: black; /* Màu chữ trắng */
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.description {
+color: black; /* Màu chữ mô tả nhạt hơn */
+font-size: 1.1rem;
+line-height: 1.6;
+}
+
+.btn-outline-light {
+border: 2px solid #fff; /* Viền nút trắng */
+color: #fff; /* Màu chữ trắng */
+padding: 10px 20px;
+font-size: 1.2rem;
+transition: background-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+background-color: #fff; /* Khi hover đổi màu nền */
+color: #000; /* Màu chữ khi hover */
+}
+
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+
+.text-center {
+text-align: center;
+}
+
+/*footer*/
+footer {
+background-color: black;
+color: white;
+padding: 2rem;
+}
+
+footer .grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 2rem;
+margin-left: 73px;
+}
+
+footer h3 {
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+
+footer p, footer ul {
+font-size: 0.9rem;
+line-height: 1.5;
+color:#f4f4f4;
+}
+
+footer ul {
+list-style: none;
+padding: 0;
+}
+
+footer ul li {
+margin-bottom: 0.5rem;
+}
+
+footer .fa-phone-alt, footer .fa-envelope {
+margin-right: 0.5rem;
+}
+
+footer .fab {
+font-size: 1.5rem;
+margin-right: 0.5rem;
+}
+
+footer .fab.fa-facebook-f {
+color: #3b5998;
+}
+
+footer .fab.fa-youtube {
+color: #ff0000;
+}
+
+footer .fab.fa-instagram {
+color: #e4405f;
+}
+
+footer .text-center {
+text-align: center;
+margin-top: 2rem;
+}

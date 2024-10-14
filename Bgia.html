@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANG GIA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Bgia.css">
+</head>
+<body>
+    
+            <!-- Header -->
+         
+             <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="TrangC.html">
+                <img src="imager/logo-mazda.png" alt="Mazda"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="uadiem.html">ƯU ĐÃI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Bgia.html">GIÁ XE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="TraGia.html">TRẢ GÓP</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">TÌM ĐẠI LÝ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="laithu.html">LÁI THỬ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Lienhe.html">LIÊN HỆ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">USED CARS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+            <main>
+                <section class="hero-section">
+                    <div class="hero-image" style="background-image: url('imager/TraGop.jpg');">
+                        <div class="hero-content">
+                            <h1 class="text-white text-center">DỰ TOÁN TRẢ GÓP</h1>
+                            <p class="text-white text-center small">Bảng tính chỉ mang tính chất tham khảo. Quý khách vui lòng liên hệ Showroom/Đại Lý gần nhất để có Báo Giá chính xác nhất.</p>
+                        </div>
+                    </div>
+                </section>
+              </main>
+
+        <!-- main-->
+        <div class="container">
+            <div class="row">
+                <!--BoChon-->
+                <div class="col-md-3">
+                    <div class="filter-section">
+                        <div class="filter-title">Bộ lọc</div>
+                    <!--dòng xe-->
+                        <div class="filter-item">
+                            <label for="kieuDang">DÒNG XE</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="mediumSUV">
+                                <label class="form-check-label" for="mediumSUV">
+                                    MAZDA2
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="suv">
+                                <label class="form-check-label" for="suv">
+                                    MAZDA2 SPORT
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="sedan">
+                                <label class="form-check-label" for="sedan">
+                                    MAZDA3
+                                </label>
+                            </div> 
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="sport">
+                                <label class="form-check-label" for="sport">
+                                    MAZDA3 SPORT
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="largeSUV">
+                                <label class="form-check-label" for="largeSUV">
+                                    MAZDA6
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="largeSUV">
+                                <label class="form-check-label" for="largeSUV">
+                                    MAZDA CX-3
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="largeSUV">
+                                <label class="form-check-label" for="largeSUV">
+                                    MAZDA CX-30
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="largeSUV">
+                                <label class="form-check-label" for="largeSUV">
+                                    MMAZDA CX-5
+                                </label>
+                            </div>
+                        </div>
+                    <!--Giá-->
+                        <div class="filter-item">
+                            <div class="filter-item">
+                                <label for="kieuDang">GIÁ</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="mediumSUV">
+                                    <label class="form-check-label" for="mediumSUV">
+                                        Dưới 500 triệu
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="suv">
+                                    <label class="form-check-label" for="suv">
+                                        500 triệu - 700 triệu
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="sedan">
+                                    <label class="form-check-label" for="sedan">
+                                        700 triệu - 1 tỷ
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="sport">
+                                    <label class="form-check-label" for="sport">
+                                        1 tỷ - 2 tỷ
+                                    </label>
+                                </div>
+                            </div>
+                    <!-- NHIEU LIEU-->
+                        <div class="filter-item">
+                            <label for="kieuDang">NHIÊN LIỆU</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="mediumSUV">
+                                <label class="form-check-label" for="mediumSUV">
+                                    XĂNG
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="suv">
+                                <label class="form-check-label" for="suv">
+                                    DẦU
+                                </label>
+                            </div>
+                        </div>
+                    <!--SO CHỖ -->
+                        <div class="filter-item">
+                            <label for="kieuDang">SỐ CHỖ</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="mediumSUV">
+                                <label class="form-check-label" for="mediumSUV">
+                                    5
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="suv">
+                                <label class="form-check-label" for="suv">
+                                    7
+                                </label>
+                            </div>
+                        </div>
+                    <!-- KIEU DANG-->
+                        <div class="filter-item">
+                            <label for="kieuDang">KIỂU DÁNG</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="mediumSUV">
+                                <label class="form-check-label" for="mediumSUV">
+                                    Medium SUV
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="suv">
+                                <label class="form-check-label" for="suv">
+                                    SUV
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="sedan">
+                                <label class="form-check-label" for="sedan">
+                                    Sedan
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="sport">
+                                <label class="form-check-label" for="sport">
+                                    Sport
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="largeSUV">
+                                <label class="form-check-label" for="largeSUV">
+                                    Large SUV
+                                </label>
+                            </div>
+                        </div>
+                    <!-- XUAT XU-->
+                        <div class="filter-item">
+                            <label for="xuatXu">XUẤT XỨ</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="nhapkhau">
+                                <label class="form-check-label" for="nhapkhau">
+                                    Nhập khẩu
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="trongnuoc">
+                                <label class="form-check-label" for="trongnuoc">
+                                    Trong nước
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="row top-buttons mb-3">
+                    <div class="col-12 d-flex text-center">
+                        <button class="btn btn-outline-dark mr-2">SO SÁNH XE (0/4)</button>
+                        <button class="btn btn-dark mr-2">NHẬN BÁO GIÁ</button>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-outline-dark"><i class="fas fa-th"></i></button>
+                            <button type="button" class="btn btn-outline-dark"><i class="fas fa-list"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG1.jpg" alt="Mazda2"> </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1"><label class="form-check-label" for="flexCheckDefault1">MAZDA2 1.5L AT</label></div>
+                                    <div class="price">Giá: 408.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2"><label class="form-check-label" for="flexCheckDefault2">MAZDA2 1.5L LUXURY</label></div>
+                                    <div class="price">Giá: 484.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3"><label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label></div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG2.jpg" alt="Mazda2"> </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2 SPORT</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1"><label class="form-check-label" for="flexCheckDefault1">Mazda2 Sport 1.5L Luxury</label></div>
+                                    <div class="price">Giá: 527.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2"><label class="form-check-label" for="flexCheckDefault2">Mazda2 Sport 1.5L Premium</label></div>
+                                    <div class="price">Giá: 544.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG9.png" alt="Mazda2">
+                        </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                        <label class="form-check-label" for="flexCheckDefault1">MAZDA2 1.5L AT</label>
+                                    </div>
+                                    <div class="price">Giá: 408.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                        <label class="form-check-label" for="flexCheckDefault2">MAZDA2 1.5L LUXURY</label>
+                                    </div>
+                                    <div class="price">Giá: 484.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG4.png" alt="Mazda2"> </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2 SPORT</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1"><label class="form-check-label" for="flexCheckDefault1">Mazda2 Sport 1.5L Luxury</label></div>
+                                    <div class="price">Giá: 527.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2"><label class="form-check-label" for="flexCheckDefault2">Mazda2 Sport 1.5L Premium</label></div>
+                                    <div class="price">Giá: 544.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG5.png" alt="Mazda2">
+                        </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                        <label class="form-check-label" for="flexCheckDefault1">MAZDA2 1.5L AT</label>
+                                    </div>
+                                    <div class="price">Giá: 408.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                        <label class="form-check-label" for="flexCheckDefault2">MAZDA2 1.5L LUXURY</label>
+                                    </div>
+                                    <div class="price">Giá: 484.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG6.jpg" alt="Mazda2">
+                        </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                        <label class="form-check-label" for="flexCheckDefault1">MAZDA2 1.5L AT</label>
+                                    </div>
+                                    <div class="price">Giá: 408.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                        <label class="form-check-label" for="flexCheckDefault2">MAZDA2 1.5L LUXURY</label>
+                                    </div>
+                                    <div class="price">Giá: 484.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG7.jpg" alt="Mazda2"> </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2 SPORT</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1"><label class="form-check-label" for="flexCheckDefault1">Mazda2 Sport 1.5L Luxury</label></div>
+                                    <div class="price">Giá: 527.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2"><label class="form-check-label" for="flexCheckDefault2">Mazda2 Sport 1.5L Premium</label></div>
+                                    <div class="price">Giá: 544.000.000 VNĐ</div>
+                                    <div class="actions"><a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4 car-image">
+                            <img src="imager/BangG8.png" alt="Mazda2">
+                        </div>
+                        <div class="col-md-8">
+                            <h2>MAZDA2</h2>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                        <label class="form-check-label" for="flexCheckDefault1">MAZDA2 1.5L AT</label>
+                                    </div>
+                                    <div class="price">Giá: 408.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                        <label class="form-check-label" for="flexCheckDefault2">MAZDA2 1.5L LUXURY</label>
+                                    </div>
+                                    <div class="price">Giá: 484.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="car-list">
+                                <div class="car-options">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                        <label class="form-check-label" for="flexCheckDefault3">MAZDA2 1.5L PREMIUM</label>
+                                    </div>
+                                    <div class="price">Giá: 508.000.000 VNĐ</div>
+                                    <div class="actions">
+                                        <a href="#">DỰ TOÁN<br>ĐĂNG KÝ LÁI THỬ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="fixed-right">
+                <button class="btn btn-light btn-circle"><i class="fas fa-times"></i></button><br>
+                <button class="btn btn-light btn-circle"><i class="fas fa-dollar-sign"></i></button><br>
+                <button class="btn btn-light btn-circle"><i class="fas fa-gift"></i></button><br>
+                <button class="btn btn-light btn-circle"><i class="fas fa-car"></i></button><br>
+                <button class="btn btn-light btn-circle"><i class="fas fa-car"></i></button><br>
+                <button class="btn btn-light btn-circle"><i class="fas fa-comment"></i></button><br>
+                <button class="btn btn-light btn-circle"><i class="fas fa-balance-scale"></i></button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+      <footer class="bg-black text-white p-8">
+        <div class="grid grid-cols-4 gap-8">
+        <div>
+        <h3 class="font-bold mb-4">
+        CÔNG TY TNHH PHÂN PHỐI THACO AUTO
+        </h3>
+        <p>
+        Giấy CNĐKDN: 400077880 Ngày cấp 27/10/2010
+        </p>
+        <p>
+        Cơ quan cấp: Phòng đăng ký kinh doanh Sở kế hoạch và đầu tư tỉnh Quảng Nam
+        </p>
+        <p>
+        Địa chỉ : Thôn 4, Xã Tam Hiệp, Huyện Núi Thành, Tỉnh Quảng Nam, Việt Nam
+        </p>
+        <img src="imager/logo-fter.png" alt="Logo" class="footer-logo">
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        SẢN PHẨM
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Mazda2
+        </li>
+        <li>
+            Mazda2 Sport
+        </li>
+        <li>
+            Mazda3
+        </li>
+        <li>
+            Mazda3 Sport
+        </li>
+        <li>
+            Mazda6
+        </li>
+        <li>
+            Mazda CX-3
+        </li>
+        <li>
+            Mazda CX-5
+        </li>
+        <li>
+            Mazda CX-8
+        </li>
+        <li>
+            Mazda CX-30
+        </li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        DỊCH VỤ
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Dịch vụ sau bán hàng
+        </li>
+        <li>
+            Phụ tùng - phụ kiện
+        </li>
+        <li>
+            Chăm sóc khách hàng
+        </li>
+        <li>
+            Đặt hẹn dịch vụ
+        </li>
+        </ul>
+        <h3 class="font-bold mt-8 mb-4">
+        CHÍNH SÁCH
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Chính sách Thanh toán
+        </li>
+        <li>
+            Chính sách Bảo mật
+        </li>
+        <li>
+            Chính sách Giao nhận - Vận chuyển
+        </li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        LIÊN HỆ VỚI CHÚNG TÔI
+        </h3>
+        <p>
+        <i class="fas fa-phone-alt">
+        </i>
+        Hotline: 1900545591
+        </p>
+        <p>
+        <i class="fas fa-envelope">
+        </i>
+        cskh@thaco.com.vn
+        </p>
+        <div class="flex space-x-4 mt-4">
+        <a href="#">
+            <i class="fab fa-facebook-f text-2xl">
+            </i>
+        </a>
+        <a href="#">
+            <i class="fab fa-youtube text-2xl">
+            </i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram text-2xl">
+            </i>
+        </a>
+        </div>
+        </div>
+        </div>
+        <div class="text-center mt-8">
+        <p>
+        © 2024 MAZDA VIỆT NAM
+        </p>
+        </div>
+      </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="Bgia.js"></script>
+
+</body>
+</html>

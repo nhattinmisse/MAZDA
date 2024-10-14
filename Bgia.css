@@ -1,0 +1,245 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; /* Màu chữ trắng để tương phản với ảnh nền */
+    font-family: sans-serif;
+}
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0.5rem 1rem;
+}
+.navbar-brand img {
+    height: 50px; /* Adjust logo height as needed */
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar-nav .nav-link:hover {
+    color: #dc3545;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+}
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content {
+    text-align: center;
+    padding: 20px;
+}
+.hero-content h1 {
+    font-size: 3em; /* Adjust font size as needed */
+    margin-bottom: 10px;
+}
+.hero-content p {
+    font-size: 1em;
+}
+
+/* Main Section */
+.col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin-top: 20px;
+}
+.filter-section {
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.car-list {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    color: #0a0a0a;
+}
+.car-image {
+    text-align: center;
+}
+.car-image img {
+    max-width: 100%;
+    height: auto;
+}
+.car-options {
+    display: flex;
+    align-items: center;
+}
+.car-options > div {
+    flex: 1;
+}
+.car-options .form-check {
+    margin-bottom: 0;
+}
+.car-options .price {
+    text-align: right;
+}
+.car-options .actions {
+    text-align: right;
+    font-size: 0.8rem;
+}
+.car-options .actions a {
+    text-decoration: none;
+    color: #6c757d;
+    display: block;
+}
+.car-options .actions a:hover {
+    text-decoration: underline;
+}
+
+.fixed-right {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1030; /* Ensure it's above other elements */
+}
+.col-12.d-flex.text-center {
+    padding-left: 442px;
+}
+.fixed-right .btn-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-buttons {
+    justify-content: flex-end;
+}
+.top-buttons .btn-group {
+    margin-right: 10px;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+        /*bo sung*/
+        .h2, h2 {
+            font-size: 2rem;
+            color: black;
+        }
+        /*Chọn*/
+        .filter-section {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 250px;
+            background-color: #0a0a0a;
+        }
+        .filter-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .filter-item {
+            margin-bottom: 10px;
+        }
+        .filter-item label {
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .filter-item select,
+        .filter-item .form-check {
+            display: none;
+            margin-top: 10px;
+        }
+        .filter-item label::after {
+            content: '\25B6';
+            font-size: 0.8rem;
+            transition: transform 0.3s ease;
+        }
+        .filter-item.active label::after {
+            transform: rotate(90deg);
+        }
+        .filter-item.active select,
+        .filter-item.active .form-check {
+            display: block;
+        }
+        .filter-item .form-check {
+            padding-left: 15px;
+        }
+ 
+        /*footer*/
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+  }
+  img.footer-logo {
+    width: 100px;
+}
+  footer .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-left: 73px;
+  }
+  
+  footer h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  footer p, footer ul {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .fa-phone-alt, footer .fa-envelope {
+    margin-right: 0.5rem;
+  }
+  
+  footer .fab {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  footer .fab.fa-facebook-f {
+    color: #3b5998;
+  }
+  
+  footer .fab.fa-youtube {
+    color: #ff0000;
+  }
+  
+  footer .fab.fa-instagram {
+    color: #e4405f;
+  }
+  
+  footer .text-center {
+    text-align: center;
+    margin-top: 2rem;
+  }
+          

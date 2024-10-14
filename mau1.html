@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Shoes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="doan.css"> 
+  <!-- FontAwesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS for the page */
+body {
+    background-color: #E9F5D6;
+  }
+
+.navbar-nav .nav-link {
+    color: #333;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+/* Đổi màu vàng khi di chuột đến mục */
+.navbar-nav .nav-link:hover {
+    color: #FFC107;
+}
+
+/* Thêm đường kẻ màu vàng dưới tiêu đề */
+.navbar-nav .nav-link.active {
+    position: relative;
+}
+
+.navbar-nav .nav-link.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #FFC107;
+    bottom: -5px;
+    left: 0;
+}
+
+.dropdown-item:hover {
+    color: #FFC107;
+    background-color: transparent;
+}
+  .hero-section {
+    background-image: url('https://link-to-hero-image'); /* Thay bằng đường dẫn ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+  }
+  
+  h1, p {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: bold;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+  }
+  
+  /* Custom styles for product section */
+  .product-section {
+    padding: 50px 0;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #28a745;
+  }
+  /* Custom CSS for the page */
+body {
+    background-color: #E9F5D6;
+  }
+  
+  .hero-section {
+    background-image: url('https://link-to-hero-image'); /* Thay bằng đường dẫn ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+  }
+  
+  h1, p {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-weight: bold;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ffca2c;
+    border-color: #ffca2c;
+  }
+  
+  /* Custom styles for product section */
+  .product-section {
+    padding: 50px 0;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #28a745;
+  }
+  
+  /* Instagram Section Styles */
+  .instagram-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .instagram-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .instagram-section .row {
+    gap: 10px;
+  }
+  
+  .instagram-section .img-fluid {
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .instagram-section .img-fluid:hover {
+    transform: scale(1.05);
+  }
+/* Coupon Section */
+.coupon-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    border-top: 2px solid #dedede;
+  }
+  
+  .coupon-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .coupon-section p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .coupon-section form input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    flex: 1;
+  }
+  
+  .coupon-section form button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .coupon-section img {
+    max-width: 80%;
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  .footer .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .footer .footer-logo span {
+    color: #ff7f00;
+  }
+  .footer p {
+    margin: 0;
+  }
+  .social-icons a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #000;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .footer-bottom span {
+    color: #ff7f00;
+  }
+  .footer-bottom img {
+    max-width: 30px;
+    margin-right: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  @media (min-width: 992px) {
+    .card-title {
+      font-size: 1.1rem;
+    }
+  }
+  /* Tùy chỉnh kiểu cho modal */
+  .modal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.subscription-form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ad-banner {
+    flex: 1;
+}
+
+.ad-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subscription-form h4 {
+    color: #FFCC00;
+}
+
+.subscription-form input[type="email"] {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.subscription-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFCC00;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+ /* Cài đặt mặc định cho từng khối ưu đãi */
+ .feature-box {
+  text-align: center;
+  padding: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.feature-box img {
+  max-width: 50px;
+  margin-bottom: 15px;
+}
+
+.feature-box h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.feature-box p {
+  color: #777;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+}
+
+.icon-circle img {
+max-width: 50px;
+}
+
+.bg-icon-1 {
+  background-color: #FFEDE6;
+}
+
+.bg-icon-2 {
+  background-color: #E5F8F5;
+}
+
+.bg-icon-3 {
+  background-color: #FFF7E6;
+}
+
+.bg-icon-4 {
+  background-color: #EEF1FF;
+}
+
+/* Hiệu ứng đổi màu chữ khi di chuột */
+.feature-box:hover h5 {
+  color: #FFC107; /* Màu vàng */
+}
+
+/* Hiệu ứng lượn sóng cho tiêu đề */
+.feature-box h5::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #FFC107; /* Màu vàng */
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi di chuột, gạch lượn sóng xuất hiện */
+.feature-box:hover h5::after {
+  transform: scaleX(1);
+}
+.carousel-caption-left {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  text-align: left;
+  color: #fff;
+}
+
+.carousel-caption-left h5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.carousel-caption-left p {
+  background-color: rgba(255, 193, 7, 0.8); /* Vàng nhạt */
+  padding: 10px;
+  display: inline-block;
+}
+/* Tùy chỉnh CSS để hiển thị dropdown khi hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Xóa khoảng cách */
+}
+.form-control {
+  font-size: 16px;
+  padding: 10px;
+}
+ 
+    /* Tạo khoảng cách khi cuộn xuống */
+    .content-section {
+      height: 1000px; /* Nội dung dài để test cuộn */
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+
+    /* Styling cho search input và icons */
+    .navbar-icons .badge {
+      background-color: #ffc107;
+      color: white;
+      font-size: 12px;
+    }
+
+    .navbar-icons .nav-link {
+      position: relative;
+    }
+
+    #search-input {
+      width: 200px;
+    }
+    .modal-content {
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    .modal-header {
+      background-color: #f8f9fa;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  
+    .modal-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  
+    .btn-close {
+      outline: none;
+      box-shadow: none;
+    }
+  
+    .modal-body {
+      padding: 2rem;
+    }
+  
+    .form-control {
+      border-radius: 5px;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+    }
+  
+    .form-check-label {
+      font-size: 0.9rem;
+    }
+  
+    .forgot-password {
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #007bff;
+    }
+  
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+  
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+      border-radius: 5px;
+    }
+  
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  
+    .modal-footer {
+      background-color: #f8f9fa;
+      border-top: none;
+      text-align: center;
+    }
+  
+    .modal-footer p {
+      font-size: 0.9rem;
+    }
+.modal-footer a {
+      text-decoration: none;
+      color: #007bff;
+    }
+  
+    .modal-footer a:hover {
+      text-decoration: underline;
+    }
+    .modal-body {
+      display: flex;
+      flex-direction: column; /* Sắp xếp các thành phần theo chiều dọc */
+      align-items: center; /* Căn giữa theo chiều ngang */
+      justify-content: center; /* Căn giữa theo chiều dọc */
+      gap: 15px; /* Khoảng cách giữa các thành phần */
+  }
+  
+  .modal-body form {
+      width: 100%; /* Chiều rộng của form */
+      max-width: 320px; /* Chiều rộng tối đa */
+  }
+  
+  .modal-body form .form-control {
+      width: 100%; /* Đảm bảo input chiếm hết chiều rộng */
+  }
+  
+  .modal-body button {
+      width: 100%; /* Nút đăng nhập cũng chiếm hết chiều rộng */
+  }
+  
+  .modal-footer {
+      display: flex;
+      justify-content: center; /* Căn giữa nội dung phần footer */
+  }
+  .modal-body {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    padding: 20px;
+}
+
+.modal-body form {
+    width: 100%; /* Đảm bảo form chiếm toàn bộ chiều rộng */
+}
+
+.modal-body .form-control {
+    width: 100%; /* Đảm bảo các trường nhập liệu rộng hết */
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center; /* Căn giữa phần footer */
+    margin-top: 20px; /* Thêm khoảng cách phía trên footer */
+}
+
+.btn-login {
+    margin-top: 20px; /* Thêm khoảng cách phía trên nút Đăng nhập */
+}
+  </style>
+</head>
+<body>
+
+
+<!-- Thanh điều hướng -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">SHOES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Converse All
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Converse All Style 1</a></li>
+                      <li><a class="dropdown-item" href="#">Converse All Style 2</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Classic
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Chuck Taylor</a></li>
+                      <li><a class="dropdown-item" href="#">Giày</a></li>
+                      <li><a class="dropdown-item" href="#">Túi sách</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Accessories - Phụ trang
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Thắt lưng</a></li>
+                      <li><a class="dropdown-item" href="#">Mắt kính</a></li>
+<li><a class="dropdown-item" href="#">Trang sức</a></li>
+                      <li><a class="dropdown-item" href="#">Khăn choàng</a></li>
+                      <li><a class="dropdown-item" href="#">Mũ nón</a></li>
+                      <li><a class="dropdown-item" href="#">Phụ kiện khác</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+              
+          </ul>
+      </div>
+
+      <!-- Search bar -->
+      <form class="d-flex ms-3"> 
+          <input id="search-input" class="form-control" type="search" placeholder="" aria-label="Search">
+      </form>
+
+      <!-- Icons (User, Notification, Cart) -->
+      <ul class="navbar-nav navbar-icons ms-3">
+        <!-- Mở Modal Đăng nhập khi click vào icon người -->
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-heart"></i>
+            <span class="badge rounded-pill">0</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i>
+            <span class="badge rounded-pill">0</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+</nav>
+
+<!-- Modal Đăng nhập -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">Đăng nhập</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <table class="table table-borderless">
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <label for="loginEmail" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="loginEmail" required>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <label for="loginPassword" class="form-label">Mật khẩu</label>
+                                  <input type="password" class="form-control" id="loginPassword" required>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+<div class="d-flex justify-content-between align-items-center mb-3">
+                                      <div class="form-check">
+                                          <input type="checkbox" class="form-check-input" id="rememberMe">
+                                          <label class="form-check-label" for="rememberMe">Ghi nhớ đăng nhập</label>
+                                      </div>
+                                      <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal">Quên mật khẩu?</a>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <button type="submit" class="btn btn-primary w-100 btn-login">Đăng nhập</button>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <p class="text-center">Chưa có tài khoản? <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">Đăng ký ngay</a></p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Modal Quên mật khẩu -->
+<div class="modal fade" id="forgotPasswordModal" tabindex="-1" aria-labelledby="forgotPasswordModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="forgotPasswordModalLabel">Quên mật khẩu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <table class="table table-borderless">
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <label for="forgotEmail" class="form-label">Nhập email của bạn</label>
+                                  <input type="email" class="form-control" id="forgotEmail" required>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <button type="submit" class="btn btn-primary w-100">Gửi yêu cầu</button>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </form>
+          </div>
+          <div class="modal-footer">
+              <p class="text-center">Quay lại <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập</a></p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- Modal Đăng ký -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registerModalLabel">Đăng ký</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="registerName" class="form-label">Họ và tên</label>
+            <input type="text" class="form-control" id="registerName" required>
+          </div>
+          <div class="mb-3">
+            <label for="registerEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="registerEmail" required>
+          </div>
+          <div class="mb-3">
+            <label for="registerPassword" class="form-label">Mật khẩu</label>
+            <input type="password" class="form-control" id="registerPassword" required>
+          </div>
+          <div class="mb-3">
+            <label for="registerPasswordConfirm" class="form-label">Xác nhận mật khẩu</label>
+            <input type="password" class="form-control" id="registerPasswordConfirm" required>
+          </div>
+          <button type="submit" class="btn btn-success w-100 mt-4">Đăng ký</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <p class="text-center">Đã có tài khoản? <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">Đăng nhập ngay</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!-- Carousel hình ảnh -->
+<div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="img doan/001.webp" class="d-block w-100" alt="Ảnh 1">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="hero-section d-flex justify-content-center align-items-center text-center">
+              <div class="hero-text" style="margin-right: -206px;">
+                <h1>CONVERSE</h1>
+                <p>Mùa hè năng động</p>
+                <a href="#" class="btn btn-warning">Mua ngay</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="img doan/002.webp" class="d-block w-100" alt="Ảnh 2">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="hero-section d-flex justify-content-center align-items-center text-center">
+              <div class="hero-text" style="margin-left: -609px;">
+                <h1>CONVERSE</h1>
+                <p>Mùa hè năng động</p>
+                <a href="#" class="btn btn-warning">Mua ngay</a>
+              </div>
+</div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="img doan/003.webp" class="d-block w-100" alt="Ảnh 3">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="hero-section d-flex justify-content-center align-items-center text-center">
+              <div class="hero-text" style="margin-right:-876px;">
+                <h1>CONVERSE</h1>
+                <p>Mùa hè năng động</p>
+                <a href="#" class="btn btn-warning">Mua ngay</a>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <div class="container my-5">
+    <div class="row">
+        <!-- Giao hàng nhanh, miễn phí -->
+        <div class="col-md-3">
+            <div class="feature-box">
+                <div class="icon-circle bg-icon-1">
+                    <img src="img doan/home_policy_item_image_1.webp" alt="Giao hàng nhanh">
+                </div>
+                <h5>Giao hàng nhanh, miễn phí</h5>
+                <p>Đơn hàng > 900k hoặc đăng ký tài khoản được giao hàng miễn phí</p>
+            </div>
+        </div>
+
+        <!-- Trả hàng, Bảo hành -->
+        <div class="col-md-3">
+            <div class="feature-box">
+                <div class="icon-circle bg-icon-2">
+                    <img src="img doan/home_policy_item_image_2.webp" alt="Trả hàng, Bảo hành">
+                </div>
+                <h5>Trả hàng, Bảo hành</h5>
+                <p>Không thích? Trả lại hoặc đổi hàng của bạn miễn phí trong vòng 30 ngày.</p>
+            </div>
+        </div>
+
+        <!-- Thành viên -->
+        <div class="col-md-3">
+            <div class="feature-box">
+                <div class="icon-circle bg-icon-3">
+                    <img src="img doan/home_policy_item_image_3.webp" alt="Thành viên">
+                </div>
+                <h5>Thành viên</h5>
+                <p>Ưu đãi theo từng cấp bậc hạng thành viên. Sinh nhật quà tặng thành viên.</p>
+            </div>
+        </div>
+
+        <!-- Chính hãng -->
+        <div class="col-md-3">
+            <div class="feature-box">
+                <div class="icon-circle bg-icon-4">
+                    <img src="img doan/home_policy_item_image_4.webp" alt="Chính hãng">
+                </div>
+                <h5>Chính hãng</h5>
+                <p>Sản phẩm chính hãng. Được nhập khẩu 100% từ hãng.</p>
+</div>
+        </div>
+    </div>
+</div>
+
+  <!-- Product Section -->
+  <section class="product-section container mt-5">
+    <h2 class="text-center">Giao diện shoes mua nhiều nhất</h2>
+    <p class="text-center">Những mẫu thiết kế bán hàng được nhiều người dùng nhất</p>
+
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img doan/121176-drake-650x650-65cdda7193cb40b9977bfd6379e567c5-jpeg.webp" class="card-img-top" alt="Ant Tools">
+          <div class="card-body">
+            <h5 class="card-title">Ant Tools</h5>
+            <p class="card-text">1,450,000 đ</p>
+            <a href="#" class="btn btn-success">Xem thử</a>
+            <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img doan/136823c-5-650x650-15ff91e141be424b95a2892abf3fe169-jpeg.webp" class="card-img-top" alt="EGA Luxury">
+          <div class="card-body">
+            <h5 class="card-title">EGA Luxury</h5>
+            <p class="card-text">2,240,000 đ <span class="text-muted"><del>2,800,000 đ</del></span></p>
+            <a href="#" class="btn btn-success">Xem thử</a>
+            <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img doan/126196-002-650x650-115fc0e823304481a9e282f4c63c4e42-jpeg.webp" class="card-img-top" alt="Bean Điện Máy">
+          <div class="card-body">
+            <h5 class="card-title">Bean Điện Máy</h5>
+            <p class="card-text">1,800,000 đ</p>
+            <a href="#" class="btn btn-success">Xem thử</a>
+            <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="img doan/121176-drake-650x650-65cdda7193cb40b9977bfd6379e567c5-jpeg.webp" class="card-img-top" alt="Sudes Nest">
+          <div class="card-body">
+            <h5 class="card-title">Sudes Nest</h5>
+            <p class="card-text">2,000,000 đ</p>
+            <a href="#" class="btn btn-success">Xem thử</a>
+            <a href="#" class="btn btn-outline-primary">Chi tiết</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <h2 class="mb-4">Kiến thức mua hàng</h2>
+    <div class="row g-4">
+      <!-- Article 1 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img doan/1.webp" class="card-img-top" alt="Converse Pride">
+          <div class="card-body">
+<h5 class="card-title">Trải nghiệm con đường màu sắc đầy hoa dài vô tận của Converse Pride</h5>
+            <p class="card-text"><span class="me-3">📅 04.11.2021</span>🏢 Công Ty TNHH KTCN F1GENZ</p>
+            <p>Chuck Taylor Classic là dòng giày truyền thống của Converse được giữ đúng với nguyên bản ban đầu. Từ lúc xuất hiện cho đến nay dòng Classic vẫn nhận được sự quan tâm của nhiều khách...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img doan/2.webp" class="card-img-top" alt="Converse Renew Crater">
+          <div class="card-body">
+            <h5 class="card-title">Converse Renew Crater và sự chuyển đổi phát triển với bền vững</h5>
+            <p class="card-text"><span class="me-3">📅 04.11.2021</span>🏢 Công Ty TNHH KTCN F1GENZ</p>
+            <p>Chuck Taylor Classic là dòng giày truyền thống của Converse được giữ đúng với nguyên bản ban đầu. Từ lúc xuất hiện cho đến nay dòng Classic vẫn nhận được sự quan tâm của nhiều khách...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="img doan/3.webp" class="card-img-top" alt="Converse x Kim Jones">
+          <div class="card-body">
+            <h5 class="card-title">Converse X Kim Jones</h5>
+            <p class="card-text"><span class="me-3">📅 04.11.2021</span>🏢 Công Ty TNHH KTCN F1GENZ</p>
+            <p>Chuck Taylor Classic là dòng giày truyền thống của Converse được giữ đúng với nguyên bản ban đầu. Từ lúc xuất hiện cho đến nay dòng Classic vẫn nhận được sự quan tâm của nhiều khách...</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ 
+  <!-- Instagram Section -->
+  <section class="instagram-section mt-5">
+    <div class="container">
+      <h2 class="text-center">#ConnectUs</h2>
+      <div class="row">
+        <!-- Instagram Post 1 -->
+        <div class="col-md-2">
+          <img src="img doan/home-insta-mid-image-1.webp" class="img-fluid rounded" alt="Instagram Post 1">
+        </div>
+        <!-- Instagram Post 2 -->
+        <div class="col-md-2">
+          <img src="img doan/home-insta-mid-image-2.webp" class="img-fluid rounded" alt="Instagram Post 2">
+        </div>
+        <!-- Instagram Post 3 -->
+        <div class="col-md-2">
+          <img src="img doan/home-insta-mid-image-4.webp" class="img-fluid rounded" alt="Instagram Post 3">
+        </div>
+        <!-- Instagram Post 4 -->
+        <div class="col-md-2">
+          <img src="img doan/home-insta-mid-image-3.webp" class="img-fluid rounded" alt="Instagram Post 4">
+        </div>
+        <!-- Instagram Post 5 -->
+        <div class="col-md-2">
+<img src="img doan/home-insta-mid-image-5.webp" class="img-fluid rounded" alt="Instagram Post 5">
+        </div>
+        <!-- Instagram Post 6 -->
+        <div class="col-md-2">
+          <img src="img doan/home-insta-mid-image-6.webp" class="img-fluid rounded" alt="Instagram Post 6">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Coupon and Email Subscription Section -->
+<section class="coupon-section mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>Nhận ưu đãi và coupon mới nhất!</h2>
+          <p>Chúng tôi cam kết bảo mật không lộ thông tin của bạn.</p>
+          <form action="#" method="POST" class="d-flex">
+            <input type="email" class="form-control" placeholder="Nhập địa chỉ email" required>
+            <button type="submit" class="btn btn-warning ms-2">Đăng ký</button>
+          </form>
+          <p class="mt-2">Nhận ngay coupon giảm <strong>15%</strong> khi đăng ký ngay</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <img src="img doan/home-newletter-image.webp" class="img-fluid" alt="Shoe Image">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Logo and Description -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-logo">
+            SHO<span>E</span>S
+          </div>
+          <p class="mt-3">F1GENZ SHOES luôn cam kết, đảm bảo đưa sản phẩm trực tiếp từ nhà sản xuất đến tay người dùng và kiểm soát được chất lượng để đáp ứng được nhu cầu ngày càng cao của khách hàng. Tất cả các sản phẩm tại F1GENZ SHOES đều có nguồn gốc xuất xứ rõ ràng, chất lượng.</p>
+        </div>
+        <!-- Contact Info -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Liên hệ</h5>
+          <p>Tư vấn dịch vụ: 1800 6750</p>
+          <p>Hỗ trợ sử dụng: 1900 6750</p>
+          <p>Hỗ trợ vận chuyển: 1900 6719</p>
+          <p>Email: support@sapo.vn</p>
+          <p>Từ 7h00 – 22h00 các ngày từ thứ 2 đến Chủ nhật</p>
+        </div>
+        <!-- Information -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Về chúng tôi</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Giới thiệu</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+          </ul>
+        </div>
+        <!-- Featured Categories -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Danh mục nổi bật</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Chuck 2</a></li>
+            <li><a href="#">Converse All</a></li>
+            <li><a href="#">Socks</a></li>
+            <li><a href="#">Jack Purcell</a></li>
+<li><a href="#">Converse Seasonal</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <!-- Social and Payment Icons -->
+      <div class="row mt-4">
+        <div class="col-lg-6 col-md-12">
+          <h5>Liên hệ với chúng tôi</h5>
+          <p>Luôn cập nhật tất cả các hành động mà chúng tôi đã lưu cho tất cả khách hàng của mình.</p>
+          <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-pinterest"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 text-end">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+          <img src="img doan/shop_payment_item_image_1.png" alt="MasterCard">
+          <img src="img doan/shop_payment_item_image_2.png" alt="Amex">
+          <img src="img doan/shop_payment_item_image_4.png" alt="Momo">
+        </div>
+      </div>
+    </div>
+
+     <!-- Nút để mở modal -->
+     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Mở Modal Đăng Ký
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <!-- Phần Form Đăng Ký -->
+                  <div class="subscription-form">
+                      <h4>ĐĂNG KÝ NHẬN TIN</h4>
+                      <p>Để lại thông tin, để nhận ngay khuyến mãi từ chúng tôi nhé!</p>
+                      <input type="email" placeholder="Nhập email ưu đãi" />
+                      <button>ĐĂNG KÝ</button>
+                  </div>
+
+                  <!-- Phần Quảng Cáo -->
+                  <div class="ad-banner">
+                      <img src="https://via.placeholder.com/300x450?text=Exclusive+Shoes+50%25+Discount" alt="Quảng Cáo">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      © 2024 - Bản quyền thuộc về <span>F1GENZ TECHNOLOGY CO., LTD</span>. Cung cấp bởi Sapo
+    </div>
+  </footer>
+  
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const text = "Nhập từ khóa tìm kiếm...";
+    const searchInput = document.getElementById("search-input");
+    let index = 0;
+
+    function typeEffect() {
+      if (index < text.length) {
+        searchInput.setAttribute("placeholder", searchInput.getAttribute("placeholder") + text.charAt(index));
+        index++;
+setTimeout(typeEffect, 100);
+      }
+    }
+
+    window.onload = function() {
+      typeEffect();
+    };
+  </script>
+
+</body>
+</html>

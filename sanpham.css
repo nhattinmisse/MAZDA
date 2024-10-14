@@ -1,0 +1,260 @@
+body {
+    .navbar {
+        background-color: #333;
+    }
+    .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .contact-info, .social-icons {
+        color: #fff;
+    }
+    .breadcrumb {
+        background: transparent;
+        padding: 0;
+        margin: 0;
+    }
+    .breadcrumb-item a {
+        color: #ff0000;
+    }
+    .hero-section {
+        position: relative;
+        background: url('imager/webxe4.jpg') no-repeat center center;
+        background-size: cover;
+        height: 500px;
+    }
+    .hero-section .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-section .content {
+        position: relative;
+        z-index: 1;
+        color: #fff;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .product-section {
+        padding: 50px 0;
+      }
+      
+      .product-card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .product-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+      }
+      
+      .product-overlay:hover {
+        display: block;
+      }
+      
+      .overlay-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .bi {
+        font-size: 24px;
+        margin: 10px;
+        cursor: pointer;
+      }
+      
+      .product-meta {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      
+      .product-meta span {
+        font-size: 14px;
+        color: #666;
+      }
+      
+      .card-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .hr-line {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+      }
+      
+      .product-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #666;
+      }
+      
+      del {
+        font-size: 14px;
+        color: #999;
+        text-decoration: line-through;
+
+      }
+        footer {
+          background-color: #343a40; /* Màu nền tối */
+          color: #ffffff; /* Màu chữ trắng */
+      }
+      
+      footer .social {
+          margin-bottom: 20px;
+      }
+      
+      footer .social ul {
+          list-style: none;
+          padding: 0;
+      }
+      
+      footer .social ul li {
+          display: inline-block;
+          margin-right: 15px;
+      }
+      
+      footer .social ul li a {
+          color: #ffffff;
+          text-decoration: none;
+          font-size: 18px;
+          transition: color 0.3s;
+      }
+      
+      footer .social ul li a:hover {
+          color: #ff0000; /* Màu chữ khi hover */
+      }
+      
+      footer .about-content img {
+          max-width: 100%;
+          height: auto;
+          margin-bottom: 15px;
+      }
+      
+      footer .address ul {
+          list-style: none;
+          padding: 0;
+      }
+      
+      footer .address ul li {
+          margin-bottom: 10px;
+          font-size: 14px;
+      }
+      
+      footer .address ul li i {
+          margin-right: 10px;
+          color: #ff0000; /* Màu cho icon */
+      }
+      
+      footer .usefull-link h6,
+      footer .recent-post-block h6,
+      footer .news-letter h6 {
+          margin-bottom: 15px;
+          font-weight: bold;
+      }
+      
+      footer .usefull-link ul,
+      footer .recent-post-block .recent-post {
+          list-style: none;
+          padding: 0;
+      }
+      
+      footer .usefull-link ul li,
+      footer .recent-post-block .recent-post {
+          margin-bottom: 10px;
+      }
+      
+      footer .usefull-link ul li a,
+      footer .recent-post-info a {
+          color: #ffffff;
+          text-decoration: none;
+      }
+      
+      footer .usefull-link ul li a:hover,
+      footer .recent-post-info a:hover {
+          color: #ff0000; /* Màu chữ khi hover */
+      }
+      
+      footer .recent-post {
+          display: flex;
+          margin-bottom: 15px;
+      }
+      
+      footer .recent-post-image {
+          flex: 1;
+          margin-right: 10px;
+      }
+      
+      footer .recent-post-image img {
+          max-width: 100%;
+          border-radius: 5px;
+      }
+      
+      footer .recent-post-info {
+          flex: 2;
+      }
+      
+      footer .post-date {
+          font-size: 12px;
+          color: #cccccc;
+      }
+      
+      footer .news-letter {
+          text-align: center;
+      }
+      
+      footer .fb-page {
+          max-width: 100%;
+      }
+      
+      footer .copyright {
+          padding: 20px 0;
+      }
+      
+      footer .copyright .text-lg-left,
+      footer .copyright .text-lg-right {
+          margin-bottom: 10px;
+      }
+      
+      footer .copyright ul {
+          list-style: none;
+          padding: 0;
+      }
+      
+      footer .copyright ul li {
+          display: inline-block;
+          margin-right: 15px;
+      }
+      
+      footer .copyright ul li a {
+          color: #ffffff;
+          text-decoration: none;
+          transition: color 0.3s;
+      }
+      
+      footer .copyright ul li a:hover {
+          color: #ff0000; /* Màu chữ khi hover */
+      }
+      
+      @media (max-width: 768px) {
+          footer .recent-post {
+              flex-direction: column; /* Đặt lại cho thiết bị di động */
+          }
+        }
+}

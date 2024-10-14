@@ -1,0 +1,313 @@
+/* Header Styles */
+header {
+    padding: 10px 0; /* Giảm khoảng cách trên và dưới */
+    background-color: #b3d1ed; /* Màu nền header */
+    border-bottom: 1px solid #000000; /* Đường viền dưới */
+    height: 87px; /* Chiều cao tối đa của header */
+}
+.bg-light {
+    background-color: #c7ddf2 !important;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    height: 60px; /* Chiều cao logo */
+}
+
+header .navbar-nav {
+    margin-left: auto; /* Đẩy các mục menu sang phải */
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    padding: 10px 14px;
+    transition: color 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 1); /* Màu chữ khi hover */
+}
+
+header #quote-btn {
+    font-size: 14px; /* Kích thước chữ cho nút nhỏ hơn */
+    padding: 5px 15px; /* Giảm khoảng cách bên trong nút */
+    border-radius: 5px; /* Bo góc nút */
+    background-color: #fff; /* Màu nền nút */
+    border: 1px solid #000; /* Đường viền nút */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+header #quote-btn:hover {
+    background-color: #000; /* Màu nền khi hover */
+    color: #fff; /* Màu chữ khi hover */
+}
+
+/* Logo Styles */
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 55px; /* Kích thước logo nhỏ hơn */
+}
+
+
+
+/* Main Content Styles */
+.main-content {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.car-image img {
+    width: 100%;
+    margin-top: -60px; /* Canh giữa ảnh xe */
+    display: block;
+}
+
+/* Main Section Styles */
+.img-fluid {
+    height: 350px; /* Chiều cao hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+    width: 100%;
+}
+
+.container {
+    padding-bottom: 50px; /* Khoảng cách ở dưới cùng */
+}
+
+h3 {
+    margin-top: 15px; /* Khoảng cách trên tiêu đề */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.6; /* Khoảng cách giữa các dòng */
+    text-align: center; /* Canh giữa đoạn văn */
+}
+
+/* Active Link Styles */
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9); /* Màu chữ cho mục đang chọn */
+}
+
+/* Flexbox for Row Items */
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Canh giữa các item trong hàng */
+}
+
+/* Color Selection Styles */
+.color-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-btn:hover {
+    transform: scale(1.1);
+}
+
+.color-btn[data-color="red"] {
+    background-color: red;
+}
+
+.color-btn[data-color="white"] {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.color-btn[data-color="gray"] {
+    background-color: gray;
+}
+
+.car-display {
+    position: relative;
+}
+
+.car-display img {
+    width: 100%;
+    max-width: 800px; /* Tăng chiều rộng tối đa của hình ảnh */
+    transition: opacity 0.5s;
+    margin-top: 74px;
+    margin-left: 105px;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 55px;
+}
+
+/* Phần sản phẩm 3A */
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: 50%;
+}
+
+.product h3 {
+    margin: 15px 0;
+    font-size: 24px;
+   
+}
+.h5, h5 {
+  font-size: 1.25rem;
+  color: black;
+}
+ p {
+    font-size: 16px;
+    color: #635e5e;
+}
+
+/*Conter*/
+
+.container {
+    text-align: center;
+    padding: 0px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 20px;
+}
+.grid-item {
+    text-align: center;
+    width: 200px;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    margin-block: -5px;
+}
+.grid-item img {
+    width: 100px;
+    height: 100px;
+}
+.grid-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.grid-item p {
+    font-size: 14px;
+    margin: 0;
+}
+.menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-icon i {
+    font-size: 20px;
+}
+
+
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+  }
+  
+  footer .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-left: 73px;
+  }
+  
+  footer h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  footer p, footer ul {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color:#f4f4f4;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer .fa-phone-alt, footer .fa-envelope {
+    margin-right: 0.5rem;
+  }
+  
+  footer .fab {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  footer .fab.fa-facebook-f {
+    color: #3b5998;
+  }
+  
+  footer .fab.fa-youtube {
+    color: #ff0000;
+  }
+  
+  footer .fab.fa-instagram {
+    color: #e4405f;
+  }
+  
+  footer .text-center {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
