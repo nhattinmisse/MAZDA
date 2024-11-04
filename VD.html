@@ -3,143 +3,347 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mazda2 - Một chiếc xe là một tác phẩm nghệ thuật</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 20px;
-        }
-        .nav-tabs {
-            border-bottom: 2px solid #ddd;
-        }
-        .nav-tabs .nav-link {
-            border: none;
-            border-bottom: 2px solid transparent;
-            color: #333;
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-        .nav-tabs .nav-link.active {
-            border-bottom: 2px solid #000;
-            color: #000;
-        }
-        .tab-content {
-            margin-top: 20px;
-        }
-        .house {
-            padding: 20px;
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .col-md-4 {
-            flex-basis: 33.33%;
-            margin-bottom: 20px;
-            padding: 0 10px;
-        }
-        img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 10px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+    <title>SẢN PHẨM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tên_Font&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="VD.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Tab Section -->
-        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="exterior-tab" data-toggle="tab" href="#exterior" role="tab" aria-controls="exterior" aria-selected="true">NGOẠI THẤT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="interior-tab" data-toggle="tab" href="#interior" role="tab" aria-controls="interior" aria-selected="false">NỘI THẤT</a>
-            </li>
+    
+
+    <!--navbar-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" onclick="showSection('all')" class="active">Tất cả</a></li>
+            <li><a href="#" onclick="showSection('suv')">SUV</a></li>
+            <li><a href="#" onclick="showSection('sedan')">Sedan</a></li>
+            <li><a href="#" onclick="showSection('hatchback')">Hatchback</a></li>
         </ul>
-        <div class="tab-content mt-3" id="myTabContent">
-            <div class="tab-pane fade show active" id="exterior" role="tabpanel" aria-labelledby="exterior-tab">
-                
-                <div class="house">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="imager/HanhA.jpg" alt="Hình ảnh A">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhB.jpg" alt="Hình ảnh B">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhC.jpg" alt="Hình ảnh C">
-                        </div>
+    </nav>
+
+    <!--ALL-->
+    <section id="all" class="section active">
+        <div class="car-container">
+            <div class="car-row">
+                <div class="car-item">
+                    <img src="imager/SP1.jpg" alt="Mazda 2">
+                    <div class="car-name"><a href="TrangMazda Cx-3.html">MAZDA CX-3</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="imager/HanhD.jpg" alt="Hình ảnh D">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhE.jpg" alt="Hình ảnh E">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhF.jpg" alt="Hình ảnh F">
-                        </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP2.png" alt="Mazda 3">
+                    <div class="car-name"><a href="TrangMazda3.html">MAZDA CX-30</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP3.png" alt="Mazda 6">
+                    <div class="car-name"><a href="TrangMazda Cx-5.html">MAZDA CX-5</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP4.jpg" alt="Mazda 2 Sport">
+                    <div class="car-name"><a href="TrangMazda Cx-8.html">MAZDA CX-8</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="interior" role="tabpanel" aria-labelledby="interior-tab">
-                
-                <div class="house">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="imager/HanhG.jpg" alt="Hình ảnh G">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhH.png" alt="Hình ảnh H">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhI.jpg" alt="Hình ảnh I">
-                        </div>
+            <div class="car-row">
+                <div class="car-item">
+                    <img src="imager/SP7.jpg" alt="Mazda 3 Sport">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda2</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="imager/HanhJ.jpg" alt="Hình ảnh J">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhK.jpg" alt="Hình ảnh K">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="imager/HanhL.jpg" alt="Hình ảnh L">
-                        </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP8.png" alt="Mazda CX-3">
+                    <div class="car-name"><a href="TrangMazda3.html">Mazda3</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP9.png" alt="Mazda CX-5">
+                    <div class="car-name"><a href="TrangMazda6.html">Mazda6</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+            </div>
+            <div class="car-row">
+                <div class="car-item">
+                    <img src="imager/SP5.jpg" alt="Mazda CX-8">
+                    <div class="car-name"><a href="TrangMazda2.html">MAZDA2 SPORT</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP6.png" alt="Mazda 5">
+                    <div class="car-name"><a href="TrangMazda3.html">MAZDA3 SPORT</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!--SUV-->
+    <section id="suv" class="section">
+        <div class="car-container">
+            <div class="car-row">
+                <div class="car-item">
+                    <img src="imager/SP1.jpg" alt="Mazda CX-3">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda CX-3</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP2.png" alt="Mazda CX-5">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda CX-5</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP3.png" alt="Mazda CX-8">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda CX-8</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP4.jpg" alt="Mazda CX-9">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda CX-9</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SEDAN-->
+    <section id="sedan" class="section">
+        <div class="car-container">
+            <div class="car-row">
+                <div class="car-item">
+                    <img src="imager/SP7.jpg" alt="Mazda 2">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda2</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP8.png" alt="Mazda 3">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda3</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP9.png" alt="Mazda 6">
+                    <div class="car-name"><a href="TrangMazda2.html">Mazda6</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HATCHBANK-->
+    <section id="hatchback" class="section">
+        <div class="car-container">
+            <div class="car-row">
+                <div class="car-item">
+                    <img src="imager/SP5.jpg" alt="Mazda 2 Sport">
+                    <div class="car-name"><a href="Mazda2 Sport.html">Mazda2 Sport</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+                <div class="car-item">
+                    <img src="imager/SP5.jpg" alt="Mazda 3 Sport">
+                    <div class="car-name"><a href="Mazda3 Sport.html">Mazda3 Sport</a></div>
+                    <div class="car-links">
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Đăng ký lái thử</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white p-8">
+        <div class="grid grid-cols-4 gap-8">
+        <div>
+        <h3 class="font-bold mb-4">
+        CÔNG TY TNHH PHÂN PHỐI THACO AUTO
+        </h3>
+        <p>
+        Giấy CNĐKDN: 400077880 Ngày cấp 27/10/2010
+        </p>
+        <p>
+        Cơ quan cấp: Phòng đăng ký kinh doanh Sở kế hoạch và đầu tư tỉnh Quảng Nam
+        </p>
+        <p>
+        Địa chỉ : Thôn 4, Xã Tam Hiệp, Huyện Núi Thành, Tỉnh Quảng Nam, Việt Nam
+        </p>
+        <img src="imager/logo-fter.png" alt="Logo" class="footer-logo">
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        SẢN PHẨM
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Mazda2
+        </li>
+        <li>
+            Mazda2 Sport
+        </li>
+        <li>
+            Mazda3
+        </li>
+        <li>
+            Mazda3 Sport
+        </li>
+        <li>
+            Mazda6
+        </li>
+        <li>
+            Mazda CX-3
+        </li>
+        <li>
+            Mazda CX-5
+        </li>
+        <li>
+            Mazda CX-8
+        </li>
+        <li>
+            Mazda CX-30
+        </li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        DỊCH VỤ
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Dịch vụ sau bán hàng
+        </li>
+        <li>
+            Phụ tùng - phụ kiện
+        </li>
+        <li>
+            Chăm sóc khách hàng
+        </li>
+        <li>
+            Đặt hẹn dịch vụ
+        </li>
+        </ul>
+        <h3 class="font-bold mt-8 mb-4">
+        CHÍNH SÁCH
+        </h3>
+        <ul class="space-y-2">
+        <li>
+            Chính sách Thanh toán
+        </li>
+        <li>
+            Chính sách Bảo mật
+        </li>
+        <li>
+            Chính sách Giao nhận - Vận chuyển
+        </li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="font-bold mb-4">
+        LIÊN HỆ VỚI CHÚNG TÔI
+        </h3>
+        <p>
+        <i class="fas fa-phone-alt">
+        </i>
+        Hotline: 1900545591
+        </p>
+        <p>
+        <i class="fas fa-envelope">
+        </i>
+        cskh@thaco.com.vn
+        </p>
+        <div class="flex space-x-4 mt-4">
+        <a href="#">
+            <i class="fab fa-facebook-f text-2xl">
+            </i>
+        </a>
+        <a href="#">
+            <i class="fab fa-youtube text-2xl">
+            </i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram text-2xl">
+            </i>
+        </a>
+        </div>
+        </div>
+        </div>
+        <div class="text-center mt-8">
+        <p>
+        © 2024 MAZDA VIỆT NAM
+        </p>
+        </div>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('#myTab a').on('click', function (e) {
-                e.preventDefault();
-                $(this).tab('show');
-            });
-        });
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.navbar a');
+            
+            sections.forEach(section => section.classList.remove('active'));
+            navLinks.forEach(link => link.classList.remove('active'));
+            
+            document.getElementById(sectionId).classList.add('active');
+            document.querySelector(`[onclick="showSection('${sectionId}')"]`).classList.add('active');
+        }
     </script>
 </body>
 </html>

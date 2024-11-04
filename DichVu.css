@@ -1,0 +1,256 @@
+body {
+    background-color: white;
+}
+
+/* Header Styles */
+header {
+    padding: 10px 0;
+    background-color: #b3d1ed;
+    border-bottom: 1px solid #000000;
+    height: 87px;
+}
+
+.bg-light {
+    background-color: #c7ddf2 !important;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    height: 60px;
+}
+
+header .navbar-nav {
+    margin-left: auto;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    padding: 10px 14px;
+    transition: color 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+header #quote-btn {
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header #quote-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    text-align: center;
+}
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Nền mờ đen */
+    padding: 20px;
+    border-radius: 5px; /* Bo tròn các góc */
+}
+.list-group-item {
+    font-size: 18px; /* Kích thước chữ */
+    text-align: center; /* Canh giữa nội dung */
+}
+
+
+.car-image img {
+    width: 100%;
+    margin-top: -60px; /* Canh giữa ảnh xe */
+    display: block;
+}
+
+/* Logo Styles */
+.logo-img {
+    width: 55px; /* Điều chỉnh kích thước logo tại đây */
+    vertical-align: middle;
+    border-style: none;
+}
+
+/*content*/
+.container-fluid {
+    
+    padding: 50px 0;
+    }
+    
+    .section-title {
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 68px;
+    }
+    
+    .description {
+        color: black;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-top: 4%;
+    }
+    
+    .btn-outline-light {
+    border: 2px solid #fff; /* Viền nút trắng */
+    color: #fff; /* Màu chữ trắng */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    }
+    
+    .btn-outline-light:hover {
+    background-color: #fff; /* Khi hover đổi màu nền */
+    color: #000; /* Màu chữ khi hover */
+    }
+    
+    .img-fluid {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .text-center {
+    text-align: center;
+    }
+    .bg-dark {
+        background-color: #f7f7f7 !important;
+        margin-left: 20px;
+    }
+    button.btn.btn-outline-light.btn-lg {
+        color: black;
+    }
+    /*connter*/
+.conteiner {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(181, 203, 236);
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .title {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    }
+    
+    .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    }
+    
+    .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+/* Additional styles to ensure hover effect is applied consistently */
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    }
+    
+    .product h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    }
+    
+    .product p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    }
+/*footer*/
+footer {
+background-color: black;
+color: white;
+padding: 2rem;
+}
+
+footer .grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 2rem;
+margin-left: 73px;
+}
+
+footer h3 {
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+
+footer p, footer ul {
+font-size: 0.9rem;
+line-height: 1.5;
+color:#f4f4f4;
+}
+
+footer ul {
+list-style: none;
+padding: 0;
+}
+
+footer ul li {
+margin-bottom: 0.5rem;
+}
+
+footer .fa-phone-alt, footer .fa-envelope {
+margin-right: 0.5rem;
+}
+
+footer .fab {
+font-size: 1.5rem;
+margin-right: 0.5rem;
+}
+
+footer .fab.fa-facebook-f {
+color: #3b5998;
+}
+
+footer .fab.fa-youtube {
+color: #ff0000;
+}
+
+footer .fab.fa-instagram {
+color: #e4405f;
+}
+
+footer .text-center {
+text-align: center;
+margin-top: 2rem;
+}
+img.footer-logo {
+width: 90px;
+}

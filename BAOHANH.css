@@ -1,0 +1,174 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    padding: 10px 0;
+    background-color: #b3d1ed;
+    border-bottom: 1px solid #000000;
+    height: 87px;
+}
+
+.bg-light {
+    background-color: #c7ddf2 !important;
+}
+
+header .navbar-brand {
+    font-weight: bold;
+    height: 60px;
+}
+
+header .navbar-nav {
+    margin-left: auto;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    padding: 10px 14px;
+    transition: color 0.3s;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+header #quote-btn {
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header #quote-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+    text-align: center;
+}
+.hero-text {
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.list-group-item {
+    font-size: 18px; /* Kích thước chữ */
+    text-align: center; /* Canh giữa nội dung */
+}
+
+
+.car-image img {
+    width: 100%;
+    margin-top: -60px; /* Canh giữa ảnh xe */
+    display: block;
+}
+
+/* Logo Styles */
+.logo-img {
+    width: 55px; /* Điều chỉnh kích thước logo tại đây */
+    vertical-align: middle;
+    border-style: none;
+}
+
+/*conter*/
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background: #f8f9fa;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+.accordion-content {
+    padding: 10px;
+    border-top: 1px solid #e9ecef;
+    font-size: 1rem;
+    color: #666;
+}
+/*footer*/
+footer {
+background-color: black;
+color: white;
+padding: 2rem;
+}
+
+footer .grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 2rem;
+margin-left: 73px;
+}
+
+footer h3 {
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 1rem;
+}
+
+footer p, footer ul {
+font-size: 0.9rem;
+line-height: 1.5;
+color:#f4f4f4;
+}
+
+footer ul {
+list-style: none;
+padding: 0;
+}
+
+footer ul li {
+margin-bottom: 0.5rem;
+}
+
+footer .fa-phone-alt, footer .fa-envelope {
+margin-right: 0.5rem;
+}
+
+footer .fab {
+font-size: 1.5rem;
+margin-right: 0.5rem;
+}
+
+footer .fab.fa-facebook-f {
+color: #3b5998;
+}
+
+footer .fab.fa-youtube {
+color: #ff0000;
+}
+
+footer .fab.fa-instagram {
+color: #e4405f;
+}
+
+footer .text-center {
+text-align: center;
+margin-top: 2rem;
+}
+img.footer-logo {
+width: 90px;
+}

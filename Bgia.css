@@ -5,6 +5,12 @@ body {
     color: white; /* Màu chữ trắng để tương phản với ảnh nền */
     font-family: sans-serif;
 }
+.bg-dark {
+    background-color: #a5caef !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
 .img {
     vertical-align: middle;
     border-style: none;

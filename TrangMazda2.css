@@ -1,3 +1,4 @@
+
 /* Header Styles */
 header {
     padding: 10px 0; /* Giảm khoảng cách trên và dưới */
@@ -76,6 +77,7 @@ img {
     padding-bottom: 50px; /* Khoảng cách ở dưới cùng */
 }
 
+
 h3 {
     margin-top: 15px; /* Khoảng cách trên tiêu đề */
     font-weight: bold;
@@ -91,7 +93,7 @@ p {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-    color: rgba(0, 0, 0, 0.9); /* Màu chữ cho mục đang chọn */
+    color: rgba(246, 245, 245, 0.9); /* Màu chữ cho mục đang chọn */
 }
 
 /* Flexbox for Row Items */
