@@ -1,0 +1,400 @@
+  /* Đảm bảo CSS riêng cho phần sản phẩm tương tự */
+  .bg-light {
+    background-color: #f8f9fa !important; /* Màu nền sáng */
+}
+.text-black {
+    color: #000000 !important; /* Màu chữ đen */
+}
+.text-danger {
+    color: #dc3545 !important; /* Màu đỏ cho giá */
+}
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+ /* Styling for 'Đặc điểm nổi bật' section */
+ .highlight-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.highlight-section h5 {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Styling for flexbox layout to align text and image side by side */
+.highlight-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.highlight-content img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-content .text-content {
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+/* Styling for the 'Thông số kỹ thuật' section */
+.tech-specs {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tech-specs h5 {
+    font-weight: bold;
+}
+
+.tech-specs table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tech-specs th,
+.tech-specs td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tech-specs th {
+    width: 40%;
+    font-weight: bold;
+}
+
+
+/*=============================================================*/
+h4 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    }
+    
+    /* Phần đánh giá và so sánh */
+    .d-flex.align-items-center {
+    margin-bottom: 20px;
+    }
+    
+    .badge.bg-warning {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    }
+    
+    .btn-outline-danger {
+    border-color: #f00;
+    color: #f00;
+    }
+    .btn-outline-danger:hover {
+    background-color: #f00;
+    color: #fff;
+    }
+    
+    /* Phần lựa chọn cấu hình và màu sắc */
+   
+    
+    .btn-outline-secondary {
+    background-color: #fff;
+    color: #333;
+    border-color: #ccc;
+    }
+    
+    .btn-outline-secondary:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+    }
+    
+    .btn-outline-secondary.active {
+    background-color: #f00;
+    color: #fff;
+    border-color: #f00;
+    }
+    
+    /* Giá sản phẩm */
+    .text-danger.fs-4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4747;
+    }
+    
+    .text-success {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+    }
+    
+    /* Nút thêm vào giỏ hàng */
+    .btn-danger.w-100 {
+   
+    font-weight: bold;
+    }
+    
+    .testimonials .card {
+      border: none;
+      background-color: #f8f9fa;
+    }
+    
+    .testimonials img {
+      border: 2px solid #343a40;
+    }
+    
+    .testimonials .stars {
+      color: gold;
+      margin-top: 10px;
+    }
+    section.testimonials.bg-light.py-5 {
+    margin-top: 75px;
+    }
+/*=============================================================*/
+/*menu*/
+.navbar {
+    background-color: #000;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-nav .nav-link:hover {
+    color: #f00; /* Màu đỏ khi hover */
+}
+.navbar-brand img {
+    height: 40px; /* Kích thước logo */
+}
+.search-box {
+    position: relative;
+    margin-right: 20px;
+}
+.search-box input {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #fff;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.search-box input::placeholder {
+    color: #999;
+}
+.search-box .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.cart-icon img {
+    width: 24px;
+    height: 24px;
+}
+.search-box {
+    position: relative;
+    cursor: pointer;
+}
+
+.search-box img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.cart-icon img {
+    width: 25px;
+    margin-left: 20px;
+}
+
+.search-bar {
+    display: none;
+    background-color: #1c1c1c;
+    padding: 10px;
+    margin-top: 0;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+}
+
+.search-bar input {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 16px;
+}
+
+.close-search {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+/*end menu*/
+
+ /*  sản phẩm */
+
+ .product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 48px auto;
+    max-width: 1500px;
+}
+
+.product-item {
+    text-align: center;
+    flex: 1;
+}
+
+.product-item img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+ /* end sản phẩm */
+
+
+/*  */
+.nav-pills .nav-link {
+    margin-top: 38px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    margin-left: 8px;
+}
+
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link.active {
+    background-color: #000000; /* Màu nền cho mục active và hover */
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.nav-pills .nav-link:focus {
+    outline: none;
+    box-shadow: 0 0 10px 3px rgba(220, 53, 69, 0.5);
+}
+
+/*  */
+
+/* phan crad san pham */
+.row {
+    margin-left: 0; /* Bỏ margin trái */
+    margin-right: 0; /* Bỏ margin phải */
+}
+
+
+
+.price {
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom: 4px; /* Giảm khoảng cách giữa giá và phần tiếp theo */
+    
+}
+.extra-discount {
+    font-size: 13px;
+    color: rgb(58, 141, 2);
+    margin-bottom: 6px; /* Giảm khoảng cách giữa các thông tin giảm giá */
+}
+
+
+.shipping-info{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    margin-bottom: 6px;
+    background-color: #dadada;
+    border-radius: 5px;
+}
+.product__image {
+    text-align: center;
+}
+.product__image img {
+    margin: 10px 0 0;
+    width: 160px;
+}
+
+/* end san pham */
+.view-more-container {
+    margin-top: 35px; /* Khoảng cách giữa menu và nút "Xem thêm" */
+}
+
+.view-more-btn {
+    padding: 10px 30px; /* Thay đổi kích thước nút */
+    border-radius: 25px; /* Bo tròn các góc của nút */
+    transition: all 0.3s;
+}
+
+/* end san pham */
+
+/* footer */
+.footer {
+    background-image: url('img/footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer-column {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.footer h5 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* end footer*/
+
+
+
+
+
+
+
